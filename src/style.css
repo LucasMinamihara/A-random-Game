@@ -20,6 +20,12 @@
   margin-left: 1600px;
   animation: personRun 10s infinite linear;
 }
+.paused {
+  animation-play-state: paused;
+}
+.running {
+  animation-play-state: running;
+}
 #obstacle {
   position: absolute;
   width: 50px;
